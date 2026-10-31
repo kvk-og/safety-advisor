@@ -1,0 +1,16 @@
+# Secrets — never commit
+.env
+
+# Runtime state
+data/
+*.log
+
+# Local-only GPU test scripts (not part of this project)
+build_gpu_tests.sh
+build_memtest.sh
+run_memtest.sh
+run_gpuburn.sh
+run_gpuburn_full.sh
+run_chain.sh
+run_system.sh
+rebuild_gpuburn.sh
